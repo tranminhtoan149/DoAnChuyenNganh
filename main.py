@@ -2,7 +2,7 @@ from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex,
 from langchain import OpenAI
 import sys
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 def answer_me(vector_index):
     v_index = GPTSimpleVectorIndex.load_from_disk(vector_index)
